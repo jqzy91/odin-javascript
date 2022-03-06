@@ -34,10 +34,6 @@ function roundPlay(playerSelection, computerSelection) {
   }
 }
 
-// const playerSelection = prompt("Choose Rock, Paper or Scissors.", "scissors");
-// const computerSelection = computerPlay();
-// console.log(roundPlay(playerSelection, computerSelection));
-
 function game() {
   let playerScore = 0;
   let computerScore = 0;
