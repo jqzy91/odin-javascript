@@ -4,12 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Project: Rock Paper Scissors</title>
   </head>
   <body>
-    <button>Rock</button>
-    <button>Paper</button>
-    <button>Scissors</button>
+    <h1>Please choose Rock, Paper or Scissors.</h1>
+
+    <button class="btnplayerchoice" id="btnrock">Rock</button>
+    <button class="btnplayerchoice" id="btnpaper">Paper</button>
+    <button class="btnplayerchoice" id="btnscissors">Scissors</button>
+
+    <p class="comment">Best of 5! Choose wisely!</p>
+
+    <figure>
+      <h3 class="phand">Your pick:</h3>
+      <h3 class="chand">Computer's pick:</h3>
+    </figure>
+    <figure>
+      <h2 class="pscore">Your Score: 0</h2>
+      <h2 class="cscore">Opponent's Score: 0</h2>
+    </figure>
   </body>
   <script src="odin-rps.js"></script>
 </html>
